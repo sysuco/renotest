@@ -5,9 +5,9 @@
   ],
   "packageRules": [
     {
-      "description": "group opentelemetry Ppthon packages together",
+      "description": "group opentelemetry python packages together",
       "groupName": "opentelemetry",
-      "groupSlug": "opentelemrtry-python",
+      "groupSlug": "opentelemetry-python",
       "matchDatasources": [
         "pypi"
       ],
