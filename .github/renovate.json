@@ -2,5 +2,18 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base"
+  ],
+  "packageRules": [
+    {
+      "description": "group opentelemetry Ppthon packages together",
+      "groupName": "opentelemetry",
+      "groupSlug": "opentelemrtry-python",
+      "matchDatasources": [
+        "pypi"
+      ],
+      "matchPackagePrefixes": [
+        "opentelemetry-"
+      ]
+    }
   ]
 }
